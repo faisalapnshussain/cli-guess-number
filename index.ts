@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 
+//guessing number game
 import inquirer from "inquirer";
 
 const randomNumber = Math.floor(Math.random () * 10 +1);
